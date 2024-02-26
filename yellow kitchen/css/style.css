@@ -1,0 +1,433 @@
+@font-face {
+  font-family: "OpenSans";
+  font-style: normal;
+  font-weight: 300;
+  src: url(../fonts/OpenSans-Bold.ttf);
+}
+@font-face {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 300;
+  src: url(../fonts/Poppins-Light.ttf);
+}
+@font-face {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  src: url(../fonts/Poppins-SemiBold.ttf);
+}
+@font-face {
+  font-family: "Martel Sans";
+  font-style: normal;
+  font-weight: 300;
+  src: url(../fonts/MartelSans-Light.ttf);
+}
+@font-face {
+  font-family: "Martel Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: url(../fonts/MartelSans-Regular.ttf);
+}
+@font-face {
+  font-family: "Martel Sans";
+  font-style: normal;
+  font-weight: 700;
+  src: url(../fonts/MartelSans-Bold.ttf);
+}
+@font-face {
+  font-family: "Martel Sans";
+  font-style: normal;
+  font-weight: 800;
+  src: url(../fonts/MartelSans-ExtraBold.ttf);
+}
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+}
+
+body, h1, h2, h3, h4, h5, h6, li, ul, p {
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.wrapper {
+  width: 1256px;
+  margin: 0 auto;
+}
+
+.nav {
+  width: 100%;
+  height: 72px;
+  background: #FFF;
+}
+.nav_line {
+  width: 100%;
+  height: 1px;
+  background: #D4D7E5;
+}
+
+.nav_wrap {
+  height: 100%;
+  display: flex;
+}
+
+.nav_logo {
+  padding-top: 24px;
+}
+.nav_logo img {
+  width: 184px;
+  height: 24px;
+}
+
+.nav_menu {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.nav_hamburger {
+  display: flex;
+  width: 48px;
+  height: 48px;
+  flex-direction: column;
+  gap: 9px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 25px;
+  background: #FFF;
+  box-shadow: 0px 8px 40px 0px rgba(0, 0, 0, 0.08);
+}
+
+.hamburger__line {
+  width: 24px;
+  height: 2px;
+  background: #9093A6;
+}
+
+.header_food {
+  display: flex;
+}
+
+.food_title {
+  padding-top: 120px;
+  width: 534px;
+  color: #3F4255;
+  font-family: Poppins;
+  font-size: 58px;
+  font-weight: 300;
+  line-height: 64px;
+  letter-spacing: 2.9px;
+}
+
+.food_box {
+  padding-top: 88px;
+  display: flex;
+  gap: 24px;
+}
+
+.box_text {
+  display: flex;
+  width: 118px;
+  height: 72px;
+  padding: 16px 24px;
+  justify-center: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 4px;
+  border: 2px solid #FFE145;
+}
+
+.text-wrap {
+  width: 70px;
+  height: 35px;
+}
+
+.text__big {
+  color: #3F4255;
+  text-align: center;
+  font-family: "Martel Sans";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0.5px;
+}
+
+.text__small {
+  color: #3F4255;
+  font-family: "Martel Sans";
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+}
+
+.food_images {
+  display: flex;
+  align-items: center;
+  justify-center: center;
+}
+
+.image__small {
+  transform: rotate(-31.507deg);
+  width: 122px;
+  height: 166px;
+  background: url(../image/small-img.png) no-repeat center/cover;
+  margin-top: 402px;
+}
+
+.image__big {
+  width: 648px;
+  height: 649px;
+  background: url(../image/big-img.png) no-repeat center/cover;
+  padding-left: 68px;
+  margin-top: 25px;
+  position: reletive;
+}
+
+.wrap_arrow {
+  position: absolute;
+}
+
+.arrow__text {
+  width: 181px;
+  color: #313030;
+  font-family: "Martel Sans";
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.component_wrap {
+  display: flex;
+  width: 872px;
+  height: 104px;
+  background: #FFF;
+  filter: drop-shadow(0px 8px 40px rgba(0, 0, 0, 0.08));
+}
+
+.component {
+  display: flex;
+  width: 100%;
+}
+.component_box {
+  display: flex;
+  padding: 4px 0px;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 16px;
+}
+.component__img img {
+  width: 48px;
+  height: 48px;
+}
+.component__text {
+  color: #3F4255;
+  font-family: "Martel Sans";
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 24px;
+}
+
+.one {
+  width: 182px;
+}
+
+.two {
+  width: 124px;
+}
+
+.three {
+  width: 172px;
+}
+
+.comp_one {
+  padding: 24px 0 92px 24px;
+}
+
+.comp_two {
+  padding: 24px 0 46px 24px;
+}
+
+.comp_three {
+  padding: 24px 0 39px 24px;
+}
+
+.restarants {
+  margin-top: 48px;
+}
+
+.block_show {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.block__title {
+  font-family: "Poppins";
+  font-size: 36px;
+  font-weight: 300;
+  line-height: 64px;
+}
+
+.block_button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 118px;
+  height: 48px;
+  background: #F2F4FA;
+  padding: 16px, 24px, 16px, 24px;
+}
+
+.button__text {
+  color: #9093A6;
+  font-family: "Martel Sans";
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.5px;
+}
+
+.block_restarants_menu {
+  margin-top: 48px;
+  display: flex;
+  gap: 24px;
+}
+
+.menu_box {
+  box-shadow: 0px 2px 16px 0px rgba(60, 62, 74, 0.0784313725);
+}
+
+.menu__image img {
+  width: 296px;
+  height: 184px;
+  border-radius: 3px;
+}
+
+.menu__description img {
+  width: 296px;
+  height: 112px;
+}
+
+.delivery_wrap {
+  height: 297px;
+  background: #F2F4FA;
+  margin-top: 72px;
+}
+
+.delivery_block {
+  display: flex;
+  justify-content: space-between;
+}
+
+.title__text {
+  width: 509px;
+  padding-top: 81px;
+  color: #3F4255;
+  font-family: "Poppins";
+  font-weight: 300;
+  font-size: 36px;
+  line-height: 64px;
+  letter-spacing: 8%;
+}
+
+.title__text__small {
+  width: 424px;
+  padding-top: 24px;
+  color: #3F4255;
+  font-family: "Martel Sans";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+}
+
+.wrapper_input {
+  display: flex;
+  margin-top: 113px;
+  gap: 10px;
+}
+
+.inputs {
+  width: 452px;
+  height: 72px;
+  background: #FFFFFF;
+  box-shadow: 0px 8px 40px 0px rgba(0, 0, 0, 0.0784313725);
+  border-radius: 6px;
+  outline: none;
+  border: none;
+}
+
+.input-text {
+  font-family: "Martel Sans";
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+  padding-left: 16px;
+}
+
+.button-input {
+  width: 164px;
+  height: 72px;
+  background: #FFE145;
+  font-family: "Martel Sans";
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.5px;
+  color: #B79C10;
+  border-radius: 6px;
+  outline: none;
+  border: none;
+}
+
+.specialities {
+  margin-top: 72px;
+}
+
+.specialities_images {
+  display: flex;
+  margin-top: 48px;
+  gap: 24px;
+}
+
+.boxes_image {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 136px;
+  height: 136px;
+  background: #FFFFFF;
+  box-shadow: 0px 2px 16px 0px rgba(60, 62, 74, 0.0784313725);
+  border-radius: 6px;
+}
+
+.box__img img {
+  width: 48px;
+  height: 48px;
+}
+
+.box__discription {
+  padding-top: 16px;
+  font-family: "Martel Sans";
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+  color: #313030;
+}/*# sourceMappingURL=style.css.map */
